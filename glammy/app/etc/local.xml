@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Mon, 21 Aug 2017 21:32:12 +0000]]></date>
+            <date><![CDATA[Mon, 28 Aug 2017 21:06:13 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[af89ae1b62ae50ffea845adad2bb76e1]]></key>
+            <key><![CDATA[83b61c798c37b8430008d0681e7b2ad6]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -42,8 +42,8 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[1qazxsw2Q@123]]></password>
-                    <dbname><![CDATA[glammyDb]]></dbname>
+                    <password><![CDATA[root]]></password>
+                    <dbname><![CDATA[budoor]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
@@ -52,7 +52,7 @@
                 </connection>
             </default_setup>
         </resources>
-        <session_save><![CDATA[db]]></session_save>
+        <session_save><![CDATA[files]]></session_save>
     </global>
     <admin>
         <routers>
