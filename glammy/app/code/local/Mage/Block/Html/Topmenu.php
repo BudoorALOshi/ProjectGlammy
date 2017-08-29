@@ -133,7 +133,7 @@ class Mage_Page_Block_Html_Topmenu extends Mage_Core_Block_Template
             $html .= '<a href="' . $child->getUrl() . '" ' . $outermostClassCode . '><span>'
                 . $this->escapeHtml($child->getName()) . '</span></a>';
 
-            if ($child->hasChildren()) {
+            if ($child->hasChildren()) { 
                 if (!empty($childrenWrapClass)) {
                     //$html .= '<div class="' . $childrenWrapClass . '">';
                 }
